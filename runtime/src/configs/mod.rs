@@ -162,3 +162,8 @@ impl pallet_template::Config for Runtime {
 	type RuntimeEvent = RuntimeEvent;
 	type WeightInfo = pallet_template::weights::SubstrateWeight<Runtime>;
 }
+
+/// Configure the pallet-janus in pallets/pallet-janus.
+impl pallet_janus::Config for Runtime {
+	type RuntimeEvent = RuntimeEvent;
+}
