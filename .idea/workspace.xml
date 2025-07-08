@@ -5,9 +5,6 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml">
-      <package file="$PROJECT_DIR$/pallets/pallet-janus">
-        <enabledFeature name="default" />
-      </package>
       <package file="$PROJECT_DIR$/pallets/template">
         <enabledFeature name="default" />
       </package>
@@ -20,7 +17,17 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3817882e-d0cc-4639-afbe-e6d282c5efe1" name="Changes" comment="" />
+    <list default="true" id="3817882e-d0cc-4639-afbe-e6d282c5efe1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pallets/pallet-janus/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pallets/pallet-janus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pallets/pallet-janus/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/src/configs/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/src/configs/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/src/lib.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +39,9 @@
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="bOR9FpNr" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -45,17 +55,26 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "last_opened_file_path": "/home/abdala/dev/polkadot/solochain-template/pallets",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/abdala/dev/polkadot/pallet-janus",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
+    "settings.editor.selected.configurable": "language.rust.cargo.check",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pallets/pallet-janus/src" />
       <recent name="$PROJECT_DIR$/pallets" />
     </key>
   </component>
@@ -107,12 +126,29 @@
       <option name="presentableId" value="Default" />
       <updated>1751552777456</updated>
       <workItem from="1751552778801" duration="5508000" />
-      <workItem from="1751573657098" duration="4377000" />
+      <workItem from="1751573657098" duration="6662000" />
+      <workItem from="1751633685589" duration="1166000" />
+      <workItem from="1751634874455" duration="95000" />
+      <workItem from="1751635056862" duration="337000" />
+      <workItem from="1751636616494" duration="832000" />
+      <workItem from="1751637466279" duration="4234000" />
+      <workItem from="1751650232550" duration="706000" />
+      <workItem from="1751652795608" duration="44000" />
+      <workItem from="1751907735890" duration="7091000" />
+      <workItem from="1751977119264" duration="3983000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="solochain-template" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:///home/abdala/dev/polkadot/solochain-template}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
 </project>

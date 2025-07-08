@@ -141,6 +141,7 @@ parameter_types! {
 	pub FeeMultiplier: Multiplier = Multiplier::one();
 }
 
+
 impl pallet_transaction_payment::Config for Runtime {
 	type RuntimeEvent = RuntimeEvent;
 	type OnChargeTransaction = FungibleAdapter<Balances, ()>;
@@ -163,7 +164,4 @@ impl pallet_template::Config for Runtime {
 	type WeightInfo = pallet_template::weights::SubstrateWeight<Runtime>;
 }
 
-/// Configure the pallet-janus in pallets/pallet-janus.
-impl pallet_janus::Config for Runtime {
-	type RuntimeEvent = RuntimeEvent;
-}
+

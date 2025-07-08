@@ -1,6 +1,6 @@
 #![cfg_attr(not(feature = "std"), no_std)]
 
-#[cfg(feature = "std")]
+extern crate alloc;#[cfg(feature = "std")]
 include!(concat!(env!("OUT_DIR"), "/wasm_binary.rs"));
 
 pub mod apis;
@@ -8,7 +8,6 @@ pub mod apis;
 mod benchmarks;
 pub mod configs;
 
-extern crate alloc;
 use alloc::vec::Vec;
 use sp_runtime::{
 	generic, impl_opaque_keys,
@@ -88,6 +87,7 @@ mod block_times {
 	// NOTE: Currently it is not possible to change the slot duration after the chain has started.
 	// Attempting to do so will brick block production.
 	pub const SLOT_DURATION: u64 = MILLI_SECS_PER_BLOCK;
+
 }
 pub use block_times::*;
 
@@ -183,6 +183,7 @@ pub type Executive = frame_executive::Executive<
 	Migrations,
 >;
 
+
 // Create the runtime by composing the FRAME pallets that were previously configured.
 #[frame_support::runtime]
 mod runtime {
@@ -221,12 +222,11 @@ mod runtime {
 
 	#[runtime::pallet_index(6)]
 	pub type Sudo = pallet_sudo;
-
+	
 	// Include the custom logic from the pallet-template in the runtime.
 	#[runtime::pallet_index(7)]
 	pub type Template = pallet_template;
 
-	// Include the custom logic from the pallet-janus in the runtime.
-	#[runtime::pallet_index(8)]
-	pub type Janus = pallet_janus;
+
+	
 }
